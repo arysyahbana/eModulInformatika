@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Modul Interaktif</title>
+
+    <!-- Tailwind CDN (boleh diganti build Vercel nanti) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* Soft pattern background */
+      .pattern-bg {
+        background-image: radial-gradient(#e5f0ff 1px, transparent 1px),
+          radial-gradient(#e5f0ff 1px, transparent 1px);
+        background-position: 0 0, 25px 25px;
+        background-size: 50px 50px;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#f9fbff] text-gray-800">
+    <!-- ================= HERO SECTION ================= -->
+    <section class="bg-[#e5f0ff] pt-20 pb-24 px-6">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+        <!-- TEXT -->
+        <div>
+          <h1
+            class="text-4xl md:text-5xl font-bold text-blue-700 leading-tight"
+          >
+            E-Modul Interaktif
+            <span class="block text-blue-500">Untuk Pembelajaran Modern</span>
+          </h1>
+
+          <p class="mt-5 text-lg text-gray-600 max-w-md">
+            Media pembelajaran digital yang dirancang untuk mendukung proses
+            belajar secara menyenangkan, interaktif, dan fleksibel.
+          </p>
+
+          <a
+            href="#flipbook"
+            class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition"
+          >
+            Lihat Flipbook 📘
+          </a>
+        </div>
+
+        <!-- HERO IMAGE -->
+        <div class="flex justify-center">
+          <img
+            src="https://cdn3d.iconscout.com/3d/premium/thumb/boy-using-laptop-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--student-school-child-pack-people-illustrations-5599401.png"
+            alt="Hero"
+            class="w-80 md:w-[420px]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== INFO CARDS SECTION ================== -->
+    <section class="py-20 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-14 text-blue-700">
+          Informasi E-Modul
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- CARD 1 -->
+          <div
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+          >
+            <div class="text-4xl mb-4">👨‍🏫</div>
+            <h3 class="font-semibold text-lg text-blue-700 mb-2">
+              Guru & Madrasah
+            </h3>
+            <p class="text-gray-600">
+              Nama Guru: … <br />
+              Madrasah: MTsN …
+            </p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+          >
+            <div class="text-4xl mb-4">📘</div>
+            <h3 class="font-semibold text-lg text-blue-700 mb-2">
+              Jenjang & Mapel
+            </h3>
+            <p class="text-gray-600">
+              Jenjang: SMP/MTs <br />
+              Mapel: …
+            </p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+          >
+            <div class="text-4xl mb-4">🎯</div>
+            <h3 class="font-semibold text-lg text-blue-700 mb-2">
+              Tujuan Media
+            </h3>
+            <p class="text-gray-600">
+              Untuk meningkatkan pemahaman dan keterlibatan peserta didik
+              melalui media digital interaktif.
+            </p>
+          </div>
+
+          <!-- CARD 4 -->
+          <div
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+          >
+            <div class="text-4xl mb-4">⚙️</div>
+            <h3 class="font-semibold text-lg text-blue-700 mb-2">
+              Aplikasi yang Digunakan
+            </h3>
+            <p class="text-gray-600">
+              Canva, Heyzine Flipbook, TailwindCSS, Vercel
+            </p>
+          </div>
+
+          <!-- CARD 5 -->
+          <div
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+          >
+            <div class="text-4xl mb-4">🧩</div>
+            <h3 class="font-semibold text-lg text-blue-700 mb-2">
+              Langkah Penggunaan
+            </h3>
+            <p class="text-gray-600">
+              1. Buka modul <br />
+              2. Pelajari materi <br />
+              3. Kerjakan latihan <br />
+              4. Evaluasi hasil belajar
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== FLIPBOOK SECTION ================== -->
+    <section id="flipbook" class="py-20 px-6 bg-blue-50">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-blue-700 mb-6">Flipbook E-Modul</h2>
+
+        <div class="rounded-xl overflow-hidden border shadow-md">
+          <iframe
+            allowfullscreen="allowfullscreen"
+            allow="clipboard-write"
+            scrolling="no"
+            class="w-full h-[500px]"
+            src="https://heyzine.com/flip-book/58438bbef8.html"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
