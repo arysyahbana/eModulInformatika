@@ -21,37 +21,47 @@
 
   <body class="bg-[#f9fbff] text-gray-800">
     <!-- ================= HERO SECTION ================= -->
-    <section class="bg-[#e5f0ff] pt-20 pb-24 px-6">
-      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        <!-- TEXT -->
-        <div>
-          <h1
-            class="text-4xl md:text-5xl font-bold text-blue-700 leading-tight"
-          >
-            E-Modul Interaktif
-            <span class="block text-blue-500">Untuk Pembelajaran Modern</span>
-          </h1>
+    <section class="pt-20 pb-5 px-6">
+      <div class="relative max-w-6xl mx-auto">
+        <!-- WRAPPER BERSKEW (miring) -->
+        <div
+          class="bg-gradient-to-br from-sky-400 via-indigo-500 to-sky-300 rounded-3xl p-10 md:p-14 transform -skew-y-2 shadow-2xl"
+        >
+          <!-- UNSKEW AGAR ISI TIDAK MIRING -->
+          <div class="transform grid md:grid-cols-2 gap-5 items-center">
+            <!-- TEXT -->
+            <div>
+              <h1
+                class="text-4xl md:text-5xl font-bold text-white leading-tight drop-shadow-md"
+              >
+                E-Modul Interaktif
+                <span class="block text-[#F0F4FF] font-semibold">
+                  Informatika
+                </span>
+              </h1>
 
-          <p class="mt-5 text-lg text-gray-600 max-w-md">
-            Media pembelajaran digital yang dirancang untuk mendukung proses
-            belajar secara menyenangkan, interaktif, dan fleksibel.
-          </p>
+              <p class="mt-5 text-lg text-[#eef2ff] max-w-md">
+                Media pembelajaran digital yang dirancang untuk mendukung proses
+                belajar secara menyenangkan, interaktif, dan fleksibel.
+              </p>
 
-          <a
-            href="#flipbook"
-            class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-blue-700 transition"
-          >
-            Lihat Flipbook 📘
-          </a>
-        </div>
+              <a
+                href="#flipbook"
+                class="inline-block mt-6 bg-white text-blue-700 px-6 py-3 rounded-xl font-semibold shadow-lg hover:bg-blue-100 transition"
+              >
+                Lihat E-Modul 📘
+              </a>
+            </div>
 
-        <!-- HERO IMAGE -->
-        <div class="flex justify-center">
-          <img
-            src="https://cdn3d.iconscout.com/3d/premium/thumb/boy-using-laptop-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--student-school-child-pack-people-illustrations-5599401.png"
-            alt="Hero"
-            class="w-80 md:w-[420px]"
-          />
+            <!-- HERO IMAGE -->
+            <div class="flex justify-center">
+              <img
+                src="Asset/hero.png"
+                alt="Hero"
+                class="w-72 md:w-[420px] drop-shadow-lg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -66,35 +76,35 @@
         <div class="grid md:grid-cols-3 gap-8">
           <!-- CARD 1 -->
           <div
-            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:scale-105 hover:bg-gray-100 transition border border-blue-50"
           >
             <div class="text-4xl mb-4">👨‍🏫</div>
             <h3 class="font-semibold text-lg text-blue-700 mb-2">
               Guru & Madrasah
             </h3>
             <p class="text-gray-600">
-              Nama Guru: … <br />
-              Madrasah: MTsN …
+              Nama Guru: Ary Syahbana <br />
+              Madrasah: MTsN 9 Tanah Datar
             </p>
           </div>
 
           <!-- CARD 2 -->
           <div
-            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:scale-105 hover:bg-gray-100 transition border border-blue-50"
           >
             <div class="text-4xl mb-4">📘</div>
             <h3 class="font-semibold text-lg text-blue-700 mb-2">
               Jenjang & Mapel
             </h3>
             <p class="text-gray-600">
-              Jenjang: SMP/MTs <br />
-              Mapel: …
+              Jenjang: VIII <br />
+              Mapel: Teknologi Informasi dan Komunikasi
             </p>
           </div>
 
           <!-- CARD 3 -->
           <div
-            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:scale-105 hover:bg-gray-100 transition border border-blue-50"
           >
             <div class="text-4xl mb-4">🎯</div>
             <h3 class="font-semibold text-lg text-blue-700 mb-2">
@@ -108,7 +118,7 @@
 
           <!-- CARD 4 -->
           <div
-            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:scale-105 hover:bg-gray-100 transition border border-blue-50"
           >
             <div class="text-4xl mb-4">⚙️</div>
             <h3 class="font-semibold text-lg text-blue-700 mb-2">
@@ -121,7 +131,7 @@
 
           <!-- CARD 5 -->
           <div
-            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition border border-blue-50"
+            class="bg-white rounded-2xl p-6 shadow hover:shadow-lg hover:scale-105 hover:bg-gray-100 transition border border-blue-50"
           >
             <div class="text-4xl mb-4">🧩</div>
             <h3 class="font-semibold text-lg text-blue-700 mb-2">
@@ -139,8 +149,8 @@
     </section>
 
     <!-- ================== FLIPBOOK SECTION ================== -->
-    <section id="flipbook" class="py-20 px-6 bg-blue-50">
-      <div class="max-w-5xl mx-auto text-center">
+    <section id="flipbook" class="pb-20 px-6">
+      <div class="max-w-6xl mx-auto text-center">
         <h2 class="text-3xl font-bold text-blue-700 mb-6">Flipbook E-Modul</h2>
 
         <div class="rounded-xl overflow-hidden border shadow-md">
@@ -148,7 +158,7 @@
             allowfullscreen="allowfullscreen"
             allow="clipboard-write"
             scrolling="no"
-            class="w-full h-[500px]"
+            class="w-full h-[800px]"
             src="https://heyzine.com/flip-book/58438bbef8.html"
           ></iframe>
         </div>
